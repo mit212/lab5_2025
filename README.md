@@ -217,7 +217,7 @@ Confirm that the data received, as printed on the Serial Monitor, is reasonable 
 
 Copy `wireless/esp_now_sender.cpp` to `lab_code/sensor_sender.cpp` and `wireless/esp_now_receiver.cpp` to `lab_code/robot_receiver.cpp`. 
 
-Then, modify the newly copied code so that the *sender* reads and sends sensor data, while the *receiver* parses this data and uses it to command the motor. Remember what you learned in previous labs about `struct`s to define a message type. You may need to incorporate code from `test_code/motor_position/control.cpp`.
+Then, modify the newly copied code so that the *sender* reads and sends sensor data, while the *receiver* parses this data and uses it to command the motor. Remember what you learned in previous labs about `struct` to define a message type. You may need to incorporate code from `test_code/motor_position_control.cpp`.
 
 If you get stuck, refer to this [tutorial](https://randomnerdtutorials.com/esp-now-esp32-arduino-ide/) or ask the staff for help!
 
