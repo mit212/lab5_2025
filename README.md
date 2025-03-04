@@ -89,7 +89,7 @@ Wire the button, LED, and resistor onto your breadboard. Refer to [this Adafruit
 
 #### 2.2.2 Coding
 
-Fill in `test_sensors/button_test.cpp` with test code to read your button. For this lab, we will be using the `Bounce2` library to filter out undesired state changes (debouncing).
+Fill in `test_sensors/button_test.cpp` with test code to read your button and print to the serial monitor. For this lab, we will be using the `Bounce2` library to filter out undesired state changes (debouncing).
 
 <details>
   <summary><i>How do I import a library in PlatformIO?</i></summary>
