@@ -1,7 +1,7 @@
 # Lab 5: Sensors
 
 2.12/2.120 Intro to Robotics  
-Spring 2024[^1]
+Spring 2025[^1]
 
 <details>
   <summary>Table of Contents</summary>
@@ -48,7 +48,7 @@ Clone this repository and run `robot/blink_test.cpp`. You should see the onboard
 <details> <summary> <i> Forget how to clone? </i> </summary>
 
 Please refer to the [instructions from Lab 1](
-https://github.com/mit212/lab1_2024?tab=readme-ov-file#31-git-clone).
+https://github.com/mit212/lab1_2025?tab=readme-ov-file#31-git-clone).
 
 </details>
 
