@@ -79,10 +79,7 @@ Wire the potentiometer onto your breadboard. Refer to [this Adafruit page](https
 
 #### 2.1.2 Coding
 
-Fill in `test_sensors/pot_test.cpp` with test code to read your potentiometer. Refer to [this Adafruit page](https://learn.adafruit.com/make-it-change-potentiometers/arduino#display-to-serial-3001622) as an example.
-
-Necessary changes:
-- Add `#include <Arduino.h>` to the beginning of your file.
+Fill in `test_sensors/pot_test.cpp` with test code to read your potentiometer and print the readings to the serial monitor. Refer to [this Adafruit page](https://learn.adafruit.com/make-it-change-potentiometers/arduino#display-to-serial-3001622) as an example, but remember NOT to specify a baud rate in Serial.begin(). Also, you must add `#include <Arduino.h>` to the beginning of your file. Upload the code to the ESP32 and see if the readings change when you turn the dial. 
 
 ### 2.2 Button
 
