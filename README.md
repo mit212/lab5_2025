@@ -35,7 +35,6 @@ Spring 2024[^1]
   - [4.2.1 Wiring](#421-wiring)
   - [4.2.2 Coding](#422-coding)
   - [4.2.3 Sensor Integration](#423-sensor-integration)
-- [5 Feedback Form](#5-feedback-form)
 
 </details>
 
@@ -247,14 +246,6 @@ In `lab_code/display_sensor.cpp`, combine `test_code/display_test.cpp` and the t
 | :white_check_mark: CHECKOFF 2 :white_check_mark:   |
 |:---------------------------------------------------|
 | Show your chosen mini-project to a TA or LA. |
-
-## 5 Feedback Form
-
-Before you leave, please fill out https://tinyurl.com/212-feedback. 
-
-| :white_check_mark: CHECKOFF 3 :white_check_mark:   |
-|:---------------------------------------------------|
-| Show the feedback form completion screen to a TA or LA. |
 
 [^1]: Version 1 - 2024: Joseph Ntaimo, Jinger Chong, Josh Sohn  
 Version 2 - 2025: Roberto Bolli, Kaleb Blake
