@@ -146,7 +146,7 @@ If you are using the VL53L0X, refer to [this Adafruit page](https://learn.adafru
 
 #### 2.3.2 Coding
 
-Fill in `test_sensors/tof_test.cpp` with test code to read your time-of-flight sensor. Similar to the button, you will have to import the ToF library and refer to the demo code.
+Fill in `test_sensors/tof_test.cpp` with test code to read your time-of-flight sensor and print readings to the serial monitor. Similar to the button, you will have to import the ToF library and refer to the demo code.
 
 If you are using the VL6180X, refer to [this Adafruit page](https://learn.adafruit.com/adafruit-vl6180x-time-of-flight-micro-lidar-distance-sensor-breakout/wiring-and-test#install-adafruit-vl6180x-2980766) as an example. The name of the library is `Adafruit_VL6180X`, and the demo code is called `vl6180x`.
 
@@ -160,7 +160,7 @@ Wire the IMU onto your breadboard. Refer to [this Adafruit page](https://learn.a
 
 #### 2.4.2 Coding
 
-Fill in `test_sensors/imu_test.cpp` with test code to read your IMU. We have already imported the IMU library for you. However, you will still have to look it up to refer to the demo code. The name of the library is `Adafruit BNO08x`, and the demo code is called `quaternion_yaw_pitch_roll`.
+Fill in `test_sensors/imu_test.cpp` with test code to read your IMU and print readings to the serial monitor. We have already imported the IMU library for you. However, you will still have to look it up to refer to the demo code. The name of the library is `Adafruit BNO08x`, and the demo code is called `quaternion_yaw_pitch_roll`.
 
 Necessary changes:
 - Comment out line 17 `#define BNO08X_RESET -1` and uncomment line 15 `#define BNO08X_RESET 5`
