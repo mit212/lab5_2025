@@ -67,7 +67,7 @@ Feel free to clarify with the staff if you are unsure what the labels mean! A pr
 ## 2 Wiring and Reading Sensors
 Estimated time of completion: 40 min
 
-In this section, you will wire and code each sensor by following Adafruit tutorials. The instructions are intentionally vague to prepare you incase you use other sensors for the final project! Don't be afraid to ask the lab staff any questions you might have.
+In this section, you will wire and code each sensor by following Adafruit tutorials. The instructions are intentionally vague to prepare you in case you use other sensors for the final project! Don't be afraid to ask the lab staff any questions you might have.
 
 Please keep the sensors on the breadboard as you move through this section.
 
