@@ -62,7 +62,7 @@ Refer to the pinout diagram [here](https://esp32s3.com/pros3.html#img1) when cho
 
 The pin numbers in code are usually defined either in `include/pinout.h` or through `#define` statements at the beginning of the test code. In this lab, **you are free to use any pins as long as they are the right type and you update the code to match your chosen pins**.
 
-Feel free to clarify with staff if you are unsure what the labels mean! A printout of this diagram has also been provided to you.
+Feel free to clarify with the staff if you are unsure what the labels mean! A printout of this diagram has also been provided to you.
 
 ## 2 Wiring and Reading Sensors
 Estimated time of completion: 40 min
