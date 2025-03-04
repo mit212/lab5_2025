@@ -256,4 +256,5 @@ Before you leave, please fill out https://tinyurl.com/212-feedback.
 |:---------------------------------------------------|
 | Show the feedback form completion screen to a TA or LA. |
 
-[^1]: Version 1 - 2024: Joseph Ntaimo, Jinger Chong, Josh Sohn
+[^1]: Version 1 - 2024: Joseph Ntaimo, Jinger Chong, Josh Sohn  
+Version 2 - 2025: Roberto Bolli, Kaleb Blake
