@@ -159,7 +159,7 @@ If you are using the VL53L0X, refer to [this Adafruit page](https://learn.adafru
 
 Wire the IMU onto your breadboard. Refer to [this Adafruit page](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085/arduino#spi-wiring-3072345) as an example. We will use the SPI protocol. `SPI MISO` is equivalent to `SPI MI` and `SPI MOSI` is equivalent to `SPI MO`.
 
-Do not connect multiple wires to the same microcontroller pin. If a pin is taken from a previous sensor, connect to another pin and update your code to reflect this.
+Do not connect multiple wires to the same microcontroller pin. If a pin is taken by a previous sensor, connect to another pin and update your code to reflect this.
 
 #### 2.4.2 Coding
 
