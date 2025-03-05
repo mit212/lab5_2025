@@ -159,11 +159,11 @@ If you are using the VL53L0X, refer to [this Adafruit page](https://learn.adafru
 
 Wire the IMU onto your breadboard. Refer to [this Adafruit page](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085/arduino#spi-wiring-3072345) as an example. We will use the SPI protocol. `SPI MISO` is equivalent to `SPI MI` and `SPI MOSI` is equivalent to `SPI MO`.
 
+Do not connect multiple wires to the same microcontroller pin. If a pin is taken from a previous sensor, connect to another pin and update your code to reflect this.
+
 #### 2.4.2 Coding
 
 Fill in `test_sensors/imu_test.cpp` with test code to read your IMU and print the readings to the serial monitor. We have already imported the IMU library for you. However, you will still have to look it up to refer to the demo code. The name of the library is `Adafruit BNO08x`, and the demo code is called `quaternion_yaw_pitch_roll`.
-
-Do not connect multiple wires to the same microcontroller pin. If a pin is taken from a previous sensor, connect to another pin and update your code to reflect this.
 
 Some (but not all) necessary changes:
 - Comment out line 17 `#define BNO08X_RESET -1` and uncomment line 15 `#define BNO08X_RESET 5`
