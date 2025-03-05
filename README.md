@@ -131,6 +131,7 @@ Fill in `test_sensors/button_test.cpp` with test code to read your button, print
      </p>
 
  3. Copy the code into `test_sensors/button_test.cpp`.
+ 4. Modify the code to also print a message to the Serial port whenever the button is pressed.
 
 </details>
 
