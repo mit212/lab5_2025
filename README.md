@@ -124,7 +124,7 @@ Fill in `test_sensors/button_test.cpp` with test code to read your button, print
 <details>
   <summary><i>Where do I find demo code?</i></summary>
 
- 1. Navigate back to the `Bounce2` library. 
+ 1. Navigate back to the `Bounce2` library in the PlatformIO "PIO Home" tab.
  2. You can select an example from the dropdown. For the button, we will use `bounce_basic`.
     <p align="center">
        <img src="./.images/platformio_example.png" height="350" />  
