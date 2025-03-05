@@ -163,7 +163,7 @@ Wire the IMU onto your breadboard. Refer to [this Adafruit page](https://learn.a
 
 Fill in `test_sensors/imu_test.cpp` with test code to read your IMU and print the readings to the serial monitor. We have already imported the IMU library for you. However, you will still have to look it up to refer to the demo code. The name of the library is `Adafruit BNO08x`, and the demo code is called `quaternion_yaw_pitch_roll`.
 
-Do not connect multiple wires to the same pin. If a pin is taken (e.g. pin 9 for the ToF sensor), connect to another pin, and update the code example.
+Do not connect multiple wires to the same pin. If a pin is taken (e.g. pin 9 for the ToF sensor), connect to another pin, and update the code.
 
 Some (but not all) necessary changes:
 - Comment out line 17 `#define BNO08X_RESET -1` and uncomment line 15 `#define BNO08X_RESET 5`
