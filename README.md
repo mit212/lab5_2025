@@ -161,7 +161,7 @@ Wire the IMU onto your breadboard. Refer to [this Adafruit page](https://learn.a
 
 #### 2.4.2 Coding
 
-Fill in `test_sensors/imu_test.cpp` with test code to read your IMU and print the readings to the serial monitor. We have already imported the IMU library for you. However, you will still have to look it up online to refer to the demo code. The name of the library is `Adafruit BNO08x`, and the demo code is called `quaternion_yaw_pitch_roll`.
+Fill in `test_sensors/imu_test.cpp` with test code to read your IMU and print the readings to the serial monitor. We have already imported the IMU library for you. However, you will still have to look it up to refer to the demo code. The name of the library is `Adafruit BNO08x`, and the demo code is called `quaternion_yaw_pitch_roll`.
 
 Necessary changes:
 - Comment out line 17 `#define BNO08X_RESET -1` and uncomment line 15 `#define BNO08X_RESET 5`
