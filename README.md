@@ -91,8 +91,7 @@ Wire the button, LED, and resistor onto your breadboard. Refer to [this Adafruit
 
 Fill in `test_sensors/button_test.cpp` with test code to read your button, print something to the serial monitor, and turn on the LED when the button is toggled. For this lab, we will be using the `Bounce2` library to filter out undesired state changes (debouncing).
 
-<details>
-  <summary><i>How do I import a library in PlatformIO?</i></summary>
+_**How do I import a library in PlatformIO?**_
 
   1. Click the PIO Icon on the left side of the screen.
       <p align="center">
@@ -119,7 +118,6 @@ Fill in `test_sensors/button_test.cpp` with test code to read your button, print
   7. Open the `platformio.ini` file, likely the second to the last file, above `README.md`.
   8. Paste the text you copied under the `TODO`, in the `lib_deps` section of `[env]`. 
   9. Save the file. You should see PlatformIO reprocess the imported libraries.
-</details>
 
 <details>
   <summary><i>Where do I find demo code?</i></summary>
