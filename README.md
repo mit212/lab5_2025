@@ -147,7 +147,7 @@ If you are using the VL53L0X, refer to [this Adafruit page](https://learn.adafru
 
 #### 2.3.2 Coding
 
-Fill in `test_sensors/tof_test.cpp` with test code to read your time-of-flight sensor and print the readings to the serial monitor. Similar to the button, you will have to import the ToF library and refer to the demo code.
+Fill in `test_sensors/tof_test.cpp` with test code to read your time-of-flight sensor and print the readings to the serial monitor. Similar to the button, you will have to import the ToF library and **refer to the demo code.**
 
 If you are using the VL6180X, refer to [this Adafruit page](https://learn.adafruit.com/adafruit-vl6180x-time-of-flight-micro-lidar-distance-sensor-breakout/wiring-and-test#install-adafruit-vl6180x-2980766) as an example. The name of the library is `Adafruit_VL6180X`, and the demo code is called `vl6180x`.
 
