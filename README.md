@@ -65,7 +65,7 @@ The pin numbers in code are usually defined either in `include/pinout.h` or thro
 Feel free to clarify with the staff if you are unsure what the labels mean! A printout of this diagram has also been provided to you.
 
 ## 2 Wiring and Reading Sensors
-Estimated time of completion: 40 min
+Estimated time of completion: 45 min
 
 In this section, you will wire and code each sensor by following Adafruit tutorials. The instructions are intentionally vague to prepare you in case you use other sensors for the final project! Don't be afraid to ask the lab staff any questions you might have.
 
