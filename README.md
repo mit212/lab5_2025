@@ -247,5 +247,9 @@ In `lab_code/display_sensor.cpp`, combine `test_code/display_test.cpp` and the t
 |:---------------------------------------------------|
 | Show your chosen mini-project to a TA or LA. |
 
+| :white_check_mark: CHECKOFF 3 :white_check_mark:   |
+|:---------------------------------------------------|
+| Clean up and return your station to it's configuration at the start of lab. Show a TA or LA. |
+
 [^1]: Version 1 - 2024: Joseph Ntaimo, Jinger Chong, Josh Sohn  
 Version 2 - 2025: Roberto Bolli, Kaleb Blake
