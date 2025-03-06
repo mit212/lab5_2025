@@ -93,31 +93,31 @@ Fill in `test_sensors/button_test.cpp` with test code to read your button, print
 
 _**How do I import a library in PlatformIO?**_
 
-  1. Click the PIO Icon on the left side of the screen.
-      <p align="center">
-        <img src="./.images/platformio_extension.png" height="300" />  
-      </p>
+1. Click the PIO Icon on the left side of the screen.
+    <p align="center">
+      <img src="./.images/platformio_extension.png" height="300" />  
+    </p>
 
-  2. Go to `PIO Home/Libraries`.
-      <p align="center">
-        <img src="./.images/platformio_libraries.png" height="350" />  
-      </p>
+2. Go to `PIO Home/Libraries`.
+    <p align="center">
+      <img src="./.images/platformio_libraries.png" height="350" />  
+    </p>
 
-  3. Search for and click the `Bounce2` library.
-      <p align="center">
-        <img src="./.images/platformio_bounce.png" height="350" />  
-      </p>
+3. Search for and click the `Bounce2` library.
+    <p align="center">
+      <img src="./.images/platformio_bounce.png" height="350" />  
+    </p>
 
-  4. Click the "Add to Project" button. **Don't click Add in the pop up!** Instead, copy the text in the topmost textbox.
-      <p align="center">
-        <img src="./.images/platformio_import.png" height="350" />  
-      </p>
+4. Click the "Add to Project" button. **Don't click Add in the pop up!** Instead, copy the text in the topmost textbox.
+    <p align="center">
+      <img src="./.images/platformio_import.png" height="350" />  
+    </p>
 
-  5. Exit out of the pop up by clicking the X or the "Cancel" button.
-  6. Navigate back to see your files and directories by clicking the topmost icon on the left side of the screen. 
-  7. Open the `platformio.ini` file, likely the second to the last file, above `README.md`.
-  8. Paste the text you copied under the `TODO`, in the `lib_deps` section of `[env]`. 
-  9. Save the file. You should see PlatformIO reprocess the imported libraries.
+5. Exit out of the pop up by clicking the X or the "Cancel" button.
+6. Navigate back to see your files and directories by clicking the topmost icon on the left side of the screen. 
+7. Open the `platformio.ini` file, likely the second to the last file, above `README.md`.
+8. Paste the text you copied under the `TODO`, in the `lib_deps` section of `[env]`. 
+9. Save the file. You should see PlatformIO reprocess the imported libraries.
 
 <details>
   <summary><i>Where do I find demo code?</i></summary>
